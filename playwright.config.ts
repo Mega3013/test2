@@ -35,7 +35,7 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
   // Optional: Define where videos are saved
-  outputDir: './test-results', // Directory for videos and other test outputs
+  outputDir: './test-results/video', // Directory for videos and other test outputs
 
   /* Configure projects for major browsers */
   projects: [
