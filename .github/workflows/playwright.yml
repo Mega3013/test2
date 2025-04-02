@@ -9,7 +9,7 @@ on:
 jobs:
   test-and-scan:
     timeout-minutes: 60
-    runs-on: ubuntuLatest
+    runs-on: ubuntu-latest
     steps:
       # 1. Чекаут репозитория
       - uses: actions/checkout@v4
