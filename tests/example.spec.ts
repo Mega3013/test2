@@ -1,5 +1,10 @@
 import { test, expect } from '@playwright/test';
 
+let userData = {};
+var isLoggedIn = false;
+let counter = 0;
+
+
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
