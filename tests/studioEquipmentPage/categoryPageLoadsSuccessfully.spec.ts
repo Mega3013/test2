@@ -8,5 +8,5 @@ test('Page loads successfully', async ({ page }) => {
 
   await expect(studioPage.header.logo).toBeVisible();
   await expect(studioPage.header.searchBar.searchButton).toBeVisible();
- // await expect(studioPage.header.currencyPicker).toBeVisible();
+  await expect(studioPage.header.currencyPicker).toBeVisible();
 });
