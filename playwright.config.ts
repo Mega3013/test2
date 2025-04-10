@@ -37,6 +37,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'https://www.juno.co.uk/',
     // Enable video recording
     video: 'on', // Options: 'on', 'off', 'retain-on-failure', 'on-first-retry'
     // Optional: Specify video size
