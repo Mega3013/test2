@@ -4,6 +4,7 @@ import { test as baseTest } from '@playwright/test';
 export const test = baseTest.extend({
   page: async ({ page }, use) => {
     await page.goto('');
+    await page.waitForTimeout(1000);
 
     // Ждем, если баннер появляется
     const closeBtn = page.locator('button[data-dismiss="modal"]', {
