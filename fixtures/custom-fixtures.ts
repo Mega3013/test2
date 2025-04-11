@@ -21,7 +21,7 @@ export const test = baseTest.extend<{
   page: async ({ context }, use) => {
     const page = await context.newPage();
     await page.goto('');
-    await page.waitForTimeout(900);
+    await page.waitForTimeout(5100);
 
     const closeBtn = page.locator('button[data-dismiss="modal"]', {
       hasText: 'Shop now!',
