@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../../fixtures/custom-fixtures';
 import { StudioEquipmentPage } from '../../pages/studioEquipment.page';
 import { isArraySortedAscending } from '../../helpers/array-utils';
 import { ProductListingPage } from '../../pages/productListing.page';
