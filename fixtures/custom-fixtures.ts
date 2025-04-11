@@ -5,7 +5,8 @@ export const test = baseTest.extend<{
 }>({
   context: async ({ browser }, use) => {
     const context = await browser.newContext({
-      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+      userAgent:
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
       extraHTTPHeaders: {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Language': 'en-US,en;q=0.9',
@@ -21,7 +22,7 @@ export const test = baseTest.extend<{
   page: async ({ context }, use) => {
     const page = await context.newPage();
     await page.goto('');
-    await page.waitForTimeout(5100);
+    await page.waitForTimeout(1000);
 
     const closeBtn = page.locator('button[data-dismiss="modal"]', {
       hasText: 'Shop now!',
@@ -36,7 +37,9 @@ export const test = baseTest.extend<{
     }
 
     await use(page);
-    await page.close();
+
+    // ❌ Этого больше нет:
+    // await page.close();
   },
 });
 
