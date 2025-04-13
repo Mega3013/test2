@@ -37,6 +37,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'https://www.juno.co.uk/',
     // Enable video recording
     video: 'on', // Options: 'on', 'off', 'retain-on-failure', 'on-first-retry'
     // Optional: Specify video size
@@ -50,8 +51,14 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: 'setup',
+      testMatch: '**/setup.ts',
+    },
+
+    {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'], storageState: 'state.json' },
+      dependencies: ['setup'],
     },
 
     // {
