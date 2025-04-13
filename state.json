@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "rguserid",
+      "value": "9a248ac6-1637-4ca5-abd1-3d1af24ebc52",
+      "domain": "www.juno.co.uk",
+      "path": "/",
+      "expires": 1747123981.164019,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rguuid",
+      "value": "true",
+      "domain": "www.juno.co.uk",
+      "path": "/",
+      "expires": 1747123981.1641,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rgisanonymous",
+      "value": "true",
+      "domain": "www.juno.co.uk",
+      "path": "/",
+      "expires": 1747123981.164178,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "b824efae0448cb1e0c46ec50e5a0912b",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": 1747123981.16428,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "quickCart",
+      "value": "%7B%22itemCount%22%3A0%2C%22lastUpdated%22%3A1744531978%7D",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": 1751011981.164364,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cq_duid",
+      "value": "1.1744531982.VJtOPoV6sv8GpSXx",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": 1752415982,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cq_suid",
+      "value": "1.1744531982.lVEbBLzWNLR82yU7",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "VSIXR68aYU7fNmcYCMN.G5.65F6_xN.ZjhOK2lpwbwk-1744531983-1.2.1.1-h2_X36zbSWl5UzCv7vNdIHiEcR3gUvnTNDjGSIPBItHzEaND1huveylleYD9XTL4b1_F3y4GSAMmvB.OAd7PBe9ID7d3vc.IYpvqedLzEr0PON.V_fNmU5goWi8lAyM7JogNnNtLVLAN0F3rUi1MfJE.GdGPpDl.7sLZuq0tN6Ym9Zuab3R5ad3.jZAEYLko2AEHOYVw2UNIqSQFR_t3s6aX4oYyA_Er9.lql9Pqc8g2L_bv8oLVvD.RX7Tz3U1PWPpm6v_fiGzMJuRSjcTqdRjf8DQBJtSm1VdmSoXTZCNKh.pTk_c9yyoYMAUbpvpdcTfqLbVYI_eLcZCoBel_Bw5QQQFh456Dpk2H9mr5aYQ",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": 1776067983.480134,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cg_uuid",
+      "value": "f0146edb52b351f6b04e9a2cb071a153",
+      "domain": "obs.esnchocco.com",
+      "path": "/",
+      "expires": 1773562383.495776,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1744532884.146941,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cookieconsent",
+      "value": "%7B%22s%22%3Afalse%2C%22m%22%3Afalse%7D",
+      "domain": ".juno.co.uk",
+      "path": "/",
+      "expires": 1776067985,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
